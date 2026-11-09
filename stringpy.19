@@ -1,0 +1,8 @@
+list=[]
+n=int(input("enter the number of elements:"))
+for i in range(0,n):
+      number=int(input("enter the number:"))
+      list.append(number)
+print("the square of the given numbers are:")
+for i in range(0,n):
+      print(list[i]**2)
